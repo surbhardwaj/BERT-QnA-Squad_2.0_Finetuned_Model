@@ -7,4 +7,6 @@ BERT is used for various tasks like NextSentencePrediction, BertForMultipleChoic
 
 For BERT to perform QnA task, a linear head is added at the top of BERT layers with two outputs for start and end logits of the answer. Later, these logits are used to get the best indices for the answers in the passage. 
 
+I had fine-tuned the BERT-Base(12 layers) model on Squad-1.1 dataset. 
+
 

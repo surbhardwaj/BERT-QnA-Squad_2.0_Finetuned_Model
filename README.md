@@ -10,3 +10,13 @@ For BERT to perform QnA task, a linear head is added at the top of BERT layers w
 I had fine-tuned the BERT-Base(12 layers) model on Squad-1.1 dataset. 
 
 
+
+
+
+
+# Requirements
+For running the code follwing dependies are required :
+
+pip install pytorch-pretrained-bert
+
+

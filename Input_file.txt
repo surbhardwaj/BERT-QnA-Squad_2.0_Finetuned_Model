@@ -1,0 +1,13 @@
+Paragraph:
+Ethers are a class of organic compounds that contain an ether group—an oxygen atom connected to two alkyl or aryl groups. They have the general formula R–O–R′, where R and R′ represent the alkyl or aryl groups. Ethers can again be classified into two varieties: if the alkyl groups are the same on both sides of the oxygen atom, then it is a simple or symmetrical ether, whereas if they are different, the ethers are called mixed or unsymmetrical ethers. A typical example of the first group is the solvent and anesthetic diethyl ether, commonly referred to simply as "ether" (CH3–CH2–O–CH2–CH3). Ethers are common in organic chemistry and even more prevalent in biochemistry, as they are common linkages in carbohydrates and lignin. 
+Questions:
+What is the formula of alkyl group?
+What is symmetrical ether ?
+
+
+Paragraph:
+BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE benchmark to 80.4% (7.6% absolute improvement), MultiNLI accuracy to 86.7% (5.6% absolute improvement) and the SQuAD v1.1 question answering Test F1 to 93.2 (1.5 absolute improvement), outperforming human performance by 2.0.
+Questions:
+What does BERT achieves ?
+What is the BERT's accuracy on MultiNLI ?
+What is Bert's F1 score on Squad v1.1 ?

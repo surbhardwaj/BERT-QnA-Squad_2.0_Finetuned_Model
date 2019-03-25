@@ -22,6 +22,6 @@ pip install pytorch-pretrained-bert
 # Link for model Download
 Below is the link for downloading Bert-on-Squad-V1.1 :
 
-<a href = https://drive.google.com/file/d/1hktnjAJOdOwPxTK3R-KST9-kUQFYPusM/view?usp=sharing> LINK </a>
+https://drive.google.com/file/d/1hktnjAJOdOwPxTK3R-KST9-kUQFYPusM/view?usp=sharing
 
 

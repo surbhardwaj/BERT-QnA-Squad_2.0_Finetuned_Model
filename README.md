@@ -1,4 +1,4 @@
-# BERT-for-Question-Answering
+# BERT-for-Question-Answering on Squad (Fine-tuned Model)
 BERT which stands for Bidirectional Encoder Representations from Transformations is the SOTA in Transfer Learning in NLP.
 It is based on the concept of TRANSFORMER - Self Attention. It has various transformer layer stacked over one other.
 BERT base has L=12 layers and hidden size 768 whereas BERT Large has L=24 layers and hidden size=1024. It has an identical model as OpenAI GPT, with only difference that BERT uses Bidirectional self attention layers and which has really made a big difference. 

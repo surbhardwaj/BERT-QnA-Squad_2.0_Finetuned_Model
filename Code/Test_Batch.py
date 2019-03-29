@@ -555,6 +555,7 @@ def main():
             max_query_length=args.max_query_length)
     
     
+    
     all_input_ids = torch.tensor([f.input_ids for f in eval_features], dtype=torch.long)
     all_input_mask = torch.tensor([f.input_mask for f in eval_features], dtype=torch.long)
     all_segment_ids = torch.tensor([f.segment_ids for f in eval_features], dtype=torch.long)
@@ -585,20 +586,19 @@ def main():
         features=[]
         example = []
         all_results = []
+       
         for i, example_index in enumerate(example_indices):
                 start_logits = batch_start_logits[i].detach().cpu().tolist()
                 end_logits =   batch_end_logits[i].detach().cpu().tolist()
                 feature = eval_features[example_index.item()]
-                examp = examples[example_index.item()]
                 unique_id = int(feature.unique_id)
                 features.append(feature)
-                example.append(examp)
                 all_results.append(RawResult(unique_id=unique_id,
                                              start_logits=start_logits,
                                              end_logits=end_logits))
                 
        
-        output = predict(example, features, all_results,args.max_answer_length)
+        output = predict(examples, features, all_results,args.max_answer_length)
         predictions.append(output)
  
    
@@ -617,18 +617,7 @@ def main():
         print(prediction)
         print('\n')
 
-    
-        
-        
-        
- 
-    
-        
-    
    
- 
-    
-    
 
 if __name__ == "__main__":
     main()
